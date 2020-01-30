@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/*共通部分*/
+html {
+  font-size:100%;
+}
+
+body {
+  font-family: 'Kosugi Maru', sans-serif;
+  line-height:1.7;
+  color:#432;
+  height: 1000px;
+}
+
+a {
+  text-decoration:none;
+}
+
+img {
+  max-width:100%;
+}
+/*header*/
+
+.logo {
+  width:250px;
+}
+
+.main-nav {
+  display:flex;
+  font-size:1.5rem;
+  list-style:none;
+  margin-top:60px;
+
+}
+
+.main-nav li {
+  margin-left:20px
+}
+.main-nav a {
+  color:#432;
+}
+.main-nav a:hover {
+  color:#00a5dd
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin:0 auto;
+  padding:0.4%;
+}
+
+.home-contents {
+  text-align: center;
+  margin-top:10%;
+  height: 1000px;
+}
+.home-contents p {
+  margin:10px 30px 42px;
+  font-size:2rem;
+}
+
+.page-title {
+  font-size:5rem;
+  font-weight: normal;
+  position: relative;
+}
+
+.button {
+  font-size: 1.375rem;
+  background: #c3dcbe;
+  color:#fff;
+  border-radius: 5px;
+  padding:18px 32px;
+  position: absolute;
+  top:60%;
+  left:45%;
+
+}
+
+.button:hover {
+  background: #97cdf3;
+}
+
+/*大きな画像*/
+.big-bg {
+  background-size: cover;
+  background-position:center top;
+  background-repeat:no-repeat;
+}
+
+#home {
+  background-image: url(../4cc80499604f7d5342fe01a7f79ccd03_s.jpg);
+  min-height: 120vh;
+}
+
+/*モバイル版
+-----------------------------------*/
+@media (max-width:600px) {
+
+}
+
+/*MENU
+--------------------------------------------------------------------*/
+#menu {
+  background-image:url(../bisquit-2240478_1920.jpg);
+  background-size: cover;
+  background-color: #c3dcbe;
+  background-blend-mode:color-burn;
+  min-height: 100vh;
+}
+
+.menu-contents {
+  max-width:560px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.menu-contents p {
+  margin-top: 30px;
+}
+
+.grid {
+   display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap:20px;
+  margin: 30px 30px;
+}
+
+
+
+
+/*footer*/
+footer {
+  background-color: #402717;
+  color: #ffff;
+  text-align: center;
+  width: 100%;
+}
